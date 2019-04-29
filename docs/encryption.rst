@@ -19,7 +19,7 @@ If it is already encrypted, you will first be asked for the current password. Yo
 
     jrnl --decrypt
 
-will replace your encrypted journal file by a Journal in plain text. You can also specify a filename, ie. ``jrnl --decrypt plain_text_copy.txt``, to leave your original file untouched.
+will replace your encrypted journal file by a Journal in plain text. You can also specify a filename, i.e. ``jrnl --decrypt plain_text_copy.txt``, to leave your original file untouched.
 
 
 Storing passwords in your keychain
@@ -44,6 +44,7 @@ If you are using zsh instead of bash, you can get the same behaviour adding this
 
     setopt HIST_IGNORE_SPACE
     alias jrnl=" jrnl"
+
 
 Manual decryption
 -----------------

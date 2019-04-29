@@ -32,6 +32,11 @@ to install the dependencies for encrypting journals as well.
 
    Also note that when using zsh, the correct syntax is ``pip install "jrnl[encrypted]"`` (note the quotes).
 
+Alternatively, on OS X with [Homebrew](http://brew.sh/) installed:
+
+    brew install jrnl
+
+
 The first time you run ``jrnl`` you will be asked where your journal file should be created and whether you wish to encrypt it.
 
 
